@@ -1,0 +1,19 @@
+build/
+test-output/
+*.csv
+*.wav
+
+# PitchRide: never commit secrets or local data.
+.env
+.env.*
+!.env.example
+*.env
+!*.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.sqlite3
+*.sqlite3-*
+crash-reports/
+b2b.ini
